@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "quick-chart": {
+      "commandName": "Project",
+      "commandLineArgs": "MHK 0"
+    }
+  }
+}

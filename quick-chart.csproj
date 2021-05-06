@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -11,4 +11,5 @@
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
   </ItemGroup>
   <Import Project="..\chart-project\chart-project.projitems" Label="Shared" Condition="Exists('..\chart-project\chart-project.projitems')" />
+  <Import Project="..\chart-projects\chart-project.projitems" Label="Shared" />
 </Project>

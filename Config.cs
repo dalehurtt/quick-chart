@@ -13,13 +13,11 @@ namespace Charts {
             var keys = appSettings.AllKeys;
             foreach (var key in keys) {
                 if (key == "dirpath") {
-                    var value = appSettings.Get (key);
-                    var values = value.Split ("|");
-                    if (System.Environment.OSVersion.Platform == PlatformID.Unix) {
-                        data.Add (key, values[1]);
+                    if (Environment.OSVersion.Platform == PlatformID.Unix) {
+                        data.Add (key, appSettings.Get ("dirpathmac"));
                     }
                     else {
-                        data.Add (key, values[0]);
+                        data.Add (key, appSettings.Get (key));
                     }
                 }
                 else {
