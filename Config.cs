@@ -6,7 +6,7 @@ namespace Charts {
 
     public class Config {
 
-        private Dictionary<string, string> data = new Dictionary<string, string> ();
+        private Dictionary<string, string> data = new ();
 
         public Config () {
             var appSettings = ConfigurationManager.AppSettings;
