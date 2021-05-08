@@ -5,12 +5,12 @@ VisualStudioVersion = 16.0.809.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quick-chart", "quick-chart.csproj", "{FA81D879-BFBE-46F8-B80E-7E256F4A17C3}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "chart-project", "..\chart-projects\chart-project.shproj", "{D40BDFA0-1AD1-4CA2-9359-B2BA735D57B6}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "chart-project", "..\chart-project\chart-project.shproj", "{D40BDFA0-1AD1-4CA2-9359-B2BA735D57B6}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\chart-projects\chart-project.projitems*{d40bdfa0-1ad1-4ca2-9359-b2ba735d57b6}*SharedItemsImports = 13
-		..\chart-projects\chart-project.projitems*{fa81d879-bfbe-46f8-b80e-7e256f4a17c3}*SharedItemsImports = 5
+		..\chart-project\chart-project.projitems*{d40bdfa0-1ad1-4ca2-9359-b2ba735d57b6}*SharedItemsImports = 13
+		..\chart-project\chart-project.projitems*{fa81d879-bfbe-46f8-b80e-7e256f4a17c3}*SharedItemsImports = 5
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
